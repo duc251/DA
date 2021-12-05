@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+<ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+<ItemGroup>
+  <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.14.1" />
+</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Da.Data\Da.Data.csproj" />
+    <ProjectReference Include="..\ultity\Utilities.csproj" />
+    <ProjectReference Include="..\ViewModels\ViewModels.csproj" />
+	  
+  </ItemGroup>
+
+</Project>
